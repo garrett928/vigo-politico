@@ -1,1 +1,1 @@
-"# vigo-politico"
+# vigo-politico
