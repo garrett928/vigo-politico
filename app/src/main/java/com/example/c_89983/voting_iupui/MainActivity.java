@@ -21,19 +21,12 @@ import android.app.ProgressDialog;
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
-    VideoView video;
-    String video_url = "https://www.youtube.com/watch?v=pkPOwhRgTe8";
-    ProgressDialog pd;
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-
-        video = (VideoView)findViewById(R.id.video);
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -43,23 +36,6 @@ public class MainActivity extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
-
-        pd = new ProgressDialog(MainActivity.this);
-        pd.setMessage("Buffering video please wait...");
-        pd.show();
-
-        Uri uri = Uri.parse(video_url);
-        video.setVideoURI(uri);
-        video.start();
-
-        video.setOnPreparedListener(new MediaPlayer.OnPreparedListener() {
-            @Override
-            public void onPrepared(MediaPlayer mp) {
-                //close the progress dialog when buffering is done
-                pd.dismiss();
-            }
-        });
-
     }
 
     @Override
