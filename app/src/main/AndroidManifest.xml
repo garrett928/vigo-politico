@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.c_89983.voting_iupui">
+    <uses-permission android:name="android.permission.INTERNET" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".county_races" />
+        <activity android:name=".federal_races" />
+        <activity android:name=".state_races" />
+        <activity android:name=".state_senate" />
+        <activity android:name=".state_house" />
+        <activity android:name="senate_canditates" />
+        <activity android:name=".house_canditates" />
+        <activity android:name=".county_council4_can"/>
+        <activity android:name=".county_council3_can"/>
+        <activity android:name=".county_council2_can"/>
+        <activity android:name=".county_council1_can"/>
+        <activity android:name=".county_commissioner_can"/>
+
+    </application>
+
+</manifest>

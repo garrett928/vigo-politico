@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+        <item
+            android:id="@+id/federal"
+            android:icon="@drawable/congress"
+            android:title="Federal Races" />
+        <item
+            android:id="@+id/state"
+            android:icon="@drawable/state_indiana"
+            android:title="State Races" />
+        <item
+            android:id="@+id/county"
+            android:icon="@drawable/vc"
+            android:title="County Races"
+
+            />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Voting locations" />
+
+
+
+</menu>

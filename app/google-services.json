@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1048196417077",
+    "firebase_url": "https://voting-fb33b.firebaseio.com",
+    "project_id": "voting-fb33b",
+    "storage_bucket": "voting-fb33b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1048196417077:android:022664cdca8494c0",
+        "android_client_info": {
+          "package_name": "com.example.c_89983.voting_iupui"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1048196417077-6hdsurj2jtcrq1p8h68vabli9972o09r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.c_89983.voting_iupui",
+            "certificate_hash": "a2e4e70b6d8ceb5824b061ecf69e9cf5bafa33fa"
+          }
+        },
+        {
+          "client_id": "1048196417077-q85fs1atgj4m5jha7a38h8t3ah86kab0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2seYJM0eqiFcBpIAoDC8c5MRmsmvISJQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1048196417077-q85fs1atgj4m5jha7a38h8t3ah86kab0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
